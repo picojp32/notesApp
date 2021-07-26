@@ -1,0 +1,108 @@
+body {
+  background-color: slategray;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+}
+
+form {
+  min-height: 20vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  height: auto¸bcv;
+}
+
+form button {
+  color: white;
+  background: #2216c7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: #3f74d8;
+  color: white;
+}
+
+.form-container{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 10px;
+  min-width: 50%;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px lightsteelblue;
+  border-radius: 5px;
+}
+
+.note-container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-list {
+  min-width: 60%;
+  list-style: none;
+}
+
+.notes-input,.title-input{
+  font-family: "Poppins", sans-serif;
+  width:100%;
+  height:auto;
+  resize: none;
+}
+
+
+.notes {
+  margin: 0.5rem;
+  color: black;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.note-item{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+}
+
+
+
+.date{
+  font-size: 15px;
+}
+
+.text{
+  font-size: 15px;
+}
+.delete-btn{
+  color: black;
+  float: right;
+  border: none;
+  width: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+};
